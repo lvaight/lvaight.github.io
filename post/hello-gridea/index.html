@@ -4,7 +4,7 @@
 <meta name="description" content=""/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>Hello Gridea | twilightkk</title>
-<link rel="shortcut icon" href="https://lvaight.github.io/favicon.ico?v=1594710580225">
+<link rel="shortcut icon" href="https://lvaight.github.io/favicon.ico?v=1594710867462">
 <link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet">
 <link rel="stylesheet" href="https://lvaight.github.io/styles/main.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -25,7 +25,6 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
 
-<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 
 <!-- DEMO JS -->
 <!--<script src="media/scripts/index.js"></script>-->
@@ -133,9 +132,40 @@
         
 
         
+            <span id="/post/" class="leancloud_visitors" data-flag-title="Hello Gridea">
+                <em class="post-meta-item-text">阅读量 </em>
+                <i class="leancloud-visitors-count">0</i>
+            </span>
+        
 
         
 
+        
+            <script src='https://unpkg.com/valine/dist/Valine.min.js'></script>
+
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: 'fxXd6lc2KRdOgArOrMunOdya-gzGzoHsz',
+		appKey: '4T85hUVgKhtTRMN3KmVeNlRo',
+		avatar: 'wavatar',
+		pageSize: 10,
+		recordIp: false,
+		placeholder: 'Free your mind!',
+		visitor: true,
+	});
+</script>
         
 
         <div class="site-footer gt-c-content-color-first">
@@ -171,14 +201,7 @@
     </div>
 </div>
 
-<div id="vcomments"></div>
-    <script>
-        new Valine({
-            el: '#vcomments',
-            appId: 'fxXd6lc2KRdOgArOrMunOdya-gzGzoHsz',
-            appKey: '4T85hUVgKhtTRMN3KmVeNlRo'
-        })
-    </script>
+
 
 </body>
 </html>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvaight.github.io</id>
     <title>twilightkk</title>
-    <updated>2020-07-14T06:06:42.070Z</updated>
+    <updated>2020-07-14T06:08:48.930Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvaight.github.io"/>
     <link rel="self" href="https://lvaight.github.io/atom.xml"/>
@@ -10,6 +10,28 @@
     <logo>https://lvaight.github.io/images/avatar.png</logo>
     <icon>https://lvaight.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, twilightkk</rights>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://lvaight.github.io/post/about/</id>
+        <link href="https://lvaight.github.io/post/about/">
+        </link>
+        <updated>2019-01-25T11:09:48.000Z</updated>
+        <summary type="html"><![CDATA[<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<!-- more -->
+<!-- more -->
+<h2 id="关于本站">🏠 关于本站</h2>
+<!-- more -->
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
+<h2 id="联系我呀">📬 联系我呀</h2>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://lvaight.github.io/post/hello-gridea/</id>

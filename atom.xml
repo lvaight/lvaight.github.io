@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvaight.github.io</id>
     <title>twilightkk</title>
-    <updated>2020-07-14T15:54:23.561Z</updated>
+    <updated>2020-07-14T17:18:46.663Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvaight.github.io"/>
     <link rel="self" href="https://lvaight.github.io/atom.xml"/>
@@ -58,7 +58,7 @@
 <p><br>我先是按照参考文章1改了邮件回复模板：<br>
 <img src="https://lvaight.github.io/post-images/1594734293089.png" alt="" width="550" height="410" loading="lazy"></p>
 <p><br>接着在LeanCloud云引擎里面添加了很多自定义环境变量（如下图），<br>
-![](https://lvaight.github.io/post-images/1594733614373.png 770x360)<br>
+<img src="https://lvaight.github.io/post-images/1594733614373.png" alt="" width="770" height="360" loading="lazy"><br>
 其实还有一些别的，但是我没用上（也没搞懂），而且这样已经够了，就没加了，</p>
 <p><br>保存之后点开【云引擎-&gt;部署】，选择部署，然后会发现有两种选择（Git部署/命令行工具部署），<br>
 我选了Git部署，然后需要填入远程部署仓库的地址，填下面这个！<br>

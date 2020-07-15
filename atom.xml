@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://lvaight.github.io</id>
+    <id>http://localhost:4000</id>
     <title>twilightkk</title>
-    <updated>2020-07-14T17:22:55.333Z</updated>
+    <updated>2020-07-15T07:20:53.758Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://lvaight.github.io"/>
-    <link rel="self" href="https://lvaight.github.io/atom.xml"/>
-    <logo>https://lvaight.github.io/images/avatar.png</logo>
-    <icon>https://lvaight.github.io/favicon.ico</icon>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
     <rights>All rights reserved 2020, twilightkk</rights>
     <entry>
         <title type="html"><![CDATA[从0到1建站过程]]></title>
-        <id>https://lvaight.github.io/post/0/</id>
-        <link href="https://lvaight.github.io/post/0/">
+        <id>http://localhost:4000/post/0/</id>
+        <link href="http://localhost:4000/post/0/">
         </link>
         <updated>2020-07-14T12:41:14.000Z</updated>
         <content type="html"><![CDATA[<br>
@@ -20,9 +20,13 @@
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=27591660&auto=1&height=66"></iframe>
 </center>
 <p><br><br><br></p>
+<center><h3>闲话</h3></center>
+可以直接在评论区评论，三栏信息可以不填。欢迎来评论区van耍！！我导入了很多表情包！（？）
+<br>评论头像跟三栏信息中的邮箱信息有关，不限制填写格式，该信息不会统计。
+<br>目前的bug有：阅读量无法统计，貌似刷新页面才能重新评论，还有因为是基于Github的原因，网页打开的比较慢。
+<p><br><br></p>
 <center><h3>说明</h3></center>
 <p>如果不是用自己购买的主机和域名，该建站方法全免费。也有不足的地方，比如Gridea编辑器不算特别好用（如果对排版有很严重的强迫症，可能会花多一点时间），不过相对来说很方便。<br>
-<br>关于评论区，对于不同的邮箱头像随机，不填也没事，可以直接评论。<br>
 <br>图片如果看不清可以右键-&gt;在新标签页中打开图片。</p>
 <p><br><br></p>
 <center><h3>使用工具</h3></center>
@@ -34,14 +38,14 @@
 <blockquote>具体参考：https://zhuanlan.zhihu.com/p/81667972</blockquote>
 <p>p.s. 该网站最后的评论配置用的是Gitalk，需要登陆Github账号才能评论，十分不便。后来发现Gridea里面还有另一种评论接口，即Valine，在下面进行补充</p>
 <p><br><br>关于网页外观：<br></p>
-<p><img src="https://lvaight.github.io/post-images/1594738748437.png" alt="" width="600" height="300" loading="lazy"><br>
+<p><img src="http://localhost:4000/post-images/1594738748437.png" alt="" width="600" height="300" loading="lazy"><br>
 <br>在网页上进行预览和选择，若Gridea的选项里没有，那么可以在github仓库里面获取URL（如下图），<br>
-<img src="https://lvaight.github.io/post-images/1594731974148.png" alt="" width="650" height="460" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1594731974148.png" alt="" width="650" height="460" loading="lazy"><br>
 <br>然后在电脑上打开命令行，进入目标文件夹（如下图获取地址，将文件克隆到这个文件夹里的theme文件夹内），<br>
-<img src="https://lvaight.github.io/post-images/1594739061799.png" alt="" loading="lazy"><br>
-<img src="https://lvaight.github.io/post-images/1594732082702.png" alt="" width="300" height="230" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1594739061799.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1594732082702.png" alt="" width="300" height="230" loading="lazy"><br>
 <br>克隆库，<br>
-<img src="https://lvaight.github.io/post-images/1594732337962.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1594732337962.png" alt="" loading="lazy"><br>
 <br>成功之后在Gridea客户端的主题里可以进行选择。</p>
 <p><br><br><br></p>
 <center><h4><xmp><2></xmp></h4></center>
@@ -56,9 +60,9 @@
 <br>还有制作者的文章：https://deserts.io/diy-a-comment-system/</blockquote>
 <p>有点乱，而且页面貌似因为更新变得不太一样了（现在和上面的文章里面介绍的），我说一下我的整个过程：</p>
 <p><br>我先是按照参考文章1改了邮件回复模板：<br>
-<img src="https://lvaight.github.io/post-images/1594734293089.png" alt="" width="550" height="410" loading="lazy"></p>
+<img src="http://localhost:4000/post-images/1594734293089.png" alt="" width="550" height="410" loading="lazy"></p>
 <p><br>接着在LeanCloud云引擎里面添加了很多自定义环境变量（如下图），<br>
-<img src="https://lvaight.github.io/post-images/1594733614373.png" alt="" width="770" height="360" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1594733614373.png" alt="" width="770" height="360" loading="lazy"><br>
 其实还有一些别的，但是我没用上（也没搞懂），而且这样已经够了，就没加了，</p>
 <p><br>保存之后点开【云引擎-&gt;部署】，选择部署，然后会发现有两种选择（Git部署/命令行工具部署），<br>
 我选了Git部署，然后需要填入远程部署仓库的地址，填下面这个！<br>
@@ -66,7 +70,7 @@ https://github.com/DesertsP/Valine-Admin.git<br>
 别的不用改，应用就可以了。</p>
 <p><br>还有就是，设置一下定时器，保证评论提醒服务正常运作，参考文章1里面有提到原因，<br>
 我设置的定时器是根据参考文章2来做的，<br>
-<img src="https://lvaight.github.io/post-images/1594734341886.png" alt="" width="770" height="230" loading="lazy"></p>
+<img src="http://localhost:4000/post-images/1594734341886.png" alt="" width="770" height="230" loading="lazy"></p>
 <p><br>至于提到的别的，比如什么二级域名，我没管。</p>
 <p><br><br><br></p>
 <center><h4><xmp><3></xmp></h4></center>
@@ -76,23 +80,23 @@ https://github.com/DesertsP/Valine-Admin.git<br>
 感觉Gridea用的人还是很少的，在网上查相关设置的时候，查到的多是Hexo博客。</p>
 <p><br>说明：下面的代码与Gridea编辑器冲突，无法直接展示，所以截图了，可以用OCR识别复制。<br>
 <br>进入使用的主题的文件夹后，进入其中的templates文件夹，里面包含的是网页展示相关的文件代码，<br>
-<img src="https://lvaight.github.io/post-images/1594734666408.png" alt="" width="400" height="310" loading="lazy"></p>
+<img src="http://localhost:4000/post-images/1594734666408.png" alt="" width="400" height="310" loading="lazy"></p>
 <p><br>比如，post.ejs，</p>
 <p><br>我尝试过把valine评论区相关的代码塞到下面箭头指的这部分：<br>
-<img src="https://lvaight.github.io/post-images/1594734807667.png" alt="" width="490" height="410" loading="lazy"></p>
+<img src="http://localhost:4000/post-images/1594734807667.png" alt="" width="490" height="410" loading="lazy"></p>
 <p><br>保存后打开网页预览，评论区出现在了文章里面的部分，如下橙色划线区域（虽然很丑），<br>
-<img src="https://lvaight.github.io/post-images/1594734900365.png" alt="" width="770" height="490" loading="lazy"></p>
+<img src="http://localhost:4000/post-images/1594734900365.png" alt="" width="770" height="490" loading="lazy"></p>
 <p><br>每个部分应该对应了部分代码，然后可能像下面这样互相引用？<br>
-<img src="https://lvaight.github.io/post-images/1594735059761.png" alt="" width="400" height="300" loading="lazy"></p>
+<img src="http://localhost:4000/post-images/1594735059761.png" alt="" width="400" height="300" loading="lazy"></p>
 <p><br><br>此时打开templates里面的includes文件夹，如果前面在Gridea打开了Valine的评论功能，那么这里应该有了一个valine.ejs文件，关于评论区的设置在这里进行，</p>
 <p><br>加载Valine的核心代码库：<br>
-<img src="https://lvaight.github.io/post-images/1594739489549.png" alt="" loading="lazy"></p>
+<img src="http://localhost:4000/post-images/1594739489549.png" alt="" loading="lazy"></p>
 <p><br>然后这部分应该是设置评论框：<br>
-<img src="https://lvaight.github.io/post-images/1594739482913.png" alt="" loading="lazy"></p>
+<img src="http://localhost:4000/post-images/1594739482913.png" alt="" loading="lazy"></p>
 <p><br>接着这部分应该是跟Gridea里面关于Valine是否使用有关？<br>
-<img src="https://lvaight.github.io/post-images/1594739477317.png" alt="" loading="lazy"></p>
+<img src="http://localhost:4000/post-images/1594739477317.png" alt="" loading="lazy"></p>
 <p><br>最后是：<br>
-<img src="https://lvaight.github.io/post-images/1594739471984.png" alt="" loading="lazy"></p>
+<img src="http://localhost:4000/post-images/1594739471984.png" alt="" loading="lazy"></p>
 <p>除了上面已经说明的外，</p>
 <blockquote>头像参数参考：https://valine.js.org/avatar.html</blockquote>
 <p>visitor表示是否记录阅读量，<br>
@@ -100,7 +104,7 @@ notify表示是否进行邮箱提醒（作者貌似说取消这个功能了，�
 verify（因为开启notify之后验证会默认打开，是算术验证码，关了就完事了）。</p>
 <p><br>建议有啥都直接在代码里面改，在Gridea客户端改的怪怪的（？）。</p>
 <p><br><br>好了，这下终于到了我最爱的表情包环节（不添加也没事，默认的是微博的一些表情），<br>
-<img src="https://lvaight.github.io/post-images/1594739460434.png" alt="" loading="lazy"><br>
+<img src="http://localhost:4000/post-images/1594739460434.png" alt="" loading="lazy"><br>
 续上面的写就行的意思。</p>
 <p><br><br></p>
 ]]></content>

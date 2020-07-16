@@ -2,13 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvaight.github.io</id>
     <title>twilightkk</title>
-    <updated>2020-07-16T04:24:50.314Z</updated>
+    <updated>2020-07-16T05:06:26.687Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvaight.github.io"/>
     <link rel="self" href="https://lvaight.github.io/atom.xml"/>
     <logo>https://lvaight.github.io/images/avatar.png</logo>
     <icon>https://lvaight.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, twilightkk</rights>
+    <entry>
+        <title type="html"><![CDATA[留言板]]></title>
+        <id>https://lvaight.github.io/post/liu-yan-ban/</id>
+        <link href="https://lvaight.github.io/post/liu-yan-ban/">
+        </link>
+        <updated>2020-07-16T04:25:59.000Z</updated>
+        <content type="html"><![CDATA[<p><br><center></p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=22807216&auto=1&height=66"></iframe>
+<p><br><br><br>
+欢迎光临！</p>
+</center>
+<p><br><br><center><h3>闲话</h3></center></p>
+<p><br>很久很久之前就有想自建一个个人网站，也查询过很多办法，因为懒一直没有去实现。再次有很强烈的这样的想法，是因为从寒假开始朋友圈刷起了popi提问箱，我觉得这是个很好的与人交往和相互了解的方式。<br>
+<br>在了解到可以在静态博客下添加匿名评论区后，就花了一天多时间捣鼓这玩意。建站历程本来是整理给越狗的，后来想或许对大家都有帮助，于是发布在了<a href="https://lvaight.github.io/post/0/">从0到1建站</a>里面。如果在读的你有打算实际操作，在阅读我的文章时遇到任何问题欢迎和我交流！</p>
+<p><br><br><img src="https://lvaight.github.io/post-images/1594875862774.jpg" alt="" loading="lazy"><br>
+<br>因为是基于Github的原因，网页打开的时间很不稳定T T。可能以后再自己购买主机域名进行迁移。<br>
+<br>可以直接在评论区评论，三栏信息不填也可以提交。欢迎来评论区van耍！！我导入了很多小表情！（？）<br>
+<br>评论头像只跟三栏信息中的邮箱信息有关，不限制填写格式（随便填的意思，不用@xx.com都可以！），该信息不显示也不会被统计。<br>
+<br><br>目前的bug有：貌似刷新页面才能重新评论。</p>
+<p><br><br><br></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[从0到1建站过程]]></title>
         <id>https://lvaight.github.io/post/0/</id>
@@ -20,11 +42,6 @@
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=27591660&auto=1&height=66"></iframe>
 </center>
 <p><br><br><br></p>
-<center><h3>闲话</h3></center>
-<p>可以直接在评论区评论，三栏信息可以不填。欢迎来评论区van耍！！我导入了很多表情包！（？）<br>
-<br>评论头像跟三栏信息中的邮箱信息有关，不限制填写格式，该信息不会统计。<br>
-<br>目前的bug有：阅读量无法统计，貌似刷新页面才能重新评论，还有因为是基于Github的原因，网页打开的比较慢。</p>
-<p><br><br></p>
 <center><h3>说明</h3></center>
 <p>如果不是用自己购买的主机和域名，该建站方法全免费。也有不足的地方，比如Gridea编辑器不算特别好用（如果对排版有很严重的强迫症，可能会花多一点时间），不过相对来说很方便。<br>
 <br>图片如果看不清可以右键-&gt;在新标签页中打开图片。</p>
@@ -52,7 +69,7 @@
 <p><br>给网页添加Valine评论系统需要先进行相关配置，<br>
 先是注册一个LeanCloud账号，接着进入里面的控制台创建一个管理评论的应用，记录下ID和Key，最后会用到，</p>
 <blockquote>参考官方文档：https://valine.js.org/quickstart.html</blockquote>
-<p>该网站的几段代码先不用管，如果要对评论进行管理，需要创建一个Comment类，如果要实现统计阅读量的功能，那么再创建一个Counter类，<br>
+<p>该网站的几段代码先不用管，如果要对评论进行管理，需要创建一个Comment类，<br>
 按照官网的推荐，记得设置一下安全域名，把个人网站的网址输进去就好</p>
 <p><br><br>接着是评论提醒功能，</p>
 <blockquote>参考1：https://www.cnblogs.com/huanhao/p/emailvaline.html
@@ -106,6 +123,9 @@ verify（因为开启notify之后验证会默认打开，是算术验证码，�
 <p><br><br>好了，这下终于到了我最爱的表情包环节（不添加也没事，默认的是微博的一些表情），<br>
 <img src="https://lvaight.github.io/post-images/1594739460434.png" alt="" loading="lazy"><br>
 续上面的写就行的意思。</p>
+<p><br><br>最最后，说一下阅读量统计，我尝试了Valine里的阅读量统计（基于LeanCloud），但是数据写不进去，访问量一直是0。后来还是放弃了这种方法。<br>
+<br>最最最后，我统计阅读量的方法是引入<a href="http://busuanzi.ibruce.info/">不蒜子</a>的计数。将官网的两行代码写入上面提到过的post.ejs文件里面，放在想展示阅读量的位置（我额外设置了居中的格式）：<br>
+<img src="https://lvaight.github.io/post-images/1594875613991.png" alt="" width="900" height="600" loading="lazy"></p>
 <p><br><br></p>
 ]]></content>
     </entry>

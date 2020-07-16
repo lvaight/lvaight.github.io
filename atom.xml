@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lvaight.github.io</id>
     <title>twilightkk</title>
-    <updated>2020-07-16T05:15:33.417Z</updated>
+    <updated>2020-07-16T09:10:01.632Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lvaight.github.io"/>
     <link rel="self" href="https://lvaight.github.io/atom.xml"/>
@@ -27,7 +27,7 @@
 <br>因为是基于Github的原因，网页打开的时间很不稳定T T。可能以后再自己购买主机域名进行迁移。<br>
 <br>可以直接在评论区评论，三栏信息不填也可以提交。欢迎来评论区van耍！！我导入了很多小表情！（？）<br>
 <br>评论头像只跟三栏信息中的邮箱信息有关，不限制填写格式（随便填的意思，不用@xx.com都可以！），该信息不显示也不会被统计。<br>
-<br><br>目前的bug有：貌似刷新页面才能重新评论。</p>
+<br><br>目前的bug有：貌似刷新页面才能重新评论，阅读量统计的是所有文章的总阅读量。</p>
 <p><br><br><br></p>
 ]]></content>
     </entry>
